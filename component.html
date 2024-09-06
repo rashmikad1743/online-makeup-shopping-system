@@ -1,0 +1,357 @@
+<!--
+// v0 by Vercel.
+// https://v0.dev/t/3knuqcNm3PM
+-->
+
+<style>:root{--background:0 0% 100%;--foreground:240 10% 3.9%;--card:0 0% 100%;--card-foreground:240 10% 3.9%;--popover:0 0% 100%;--popover-foreground:240 10% 3.9%;--primary:346.8 77.2% 49.8%;--primary-foreground:355.7 100% 99%;--secondary:240 4.8% 95.9%;--secondary-foreground:240 5.9% 10%;--muted:240 4.8% 95.9%;--muted-foreground:240 3.8% 45%;--accent:240 4.8% 95.9%;--accent-foreground:240 5.9% 10%;--destructive:0 72% 51%;--destructive-foreground:0 0% 98%;--border:240 5.9% 90%;--input:240 5.9% 90%;--ring:346.8 77.2% 49.8%;--chart-1:347 77% 50%;--chart-2:349 77% 62%;--chart-3:350 80% 72%;--chart-4:351 83% 82%;--chart-5:352 83% 91%;--radius:0.5rem;}img[src="/placeholder.svg"],img[src="/placeholder-user.jpg"]{filter:sepia(.3) hue-rotate(-60deg) saturate(.5) opacity(0.8) }</style>
+<style>h1, h2, h3, h4, h5, h6 { font-family: 'Inter', sans-serif; --font-sans-serif: 'Inter'; }
+</style>
+<style>body { font-family: 'Inter', sans-serif; --font-sans-serif: 'Inter'; }
+</style>
+<div class="min-h-screen bg-[url('/placeholder.svg')] bg-cover bg-center bg-no-repeat">
+  <header class="sticky top-0 z-10 bg-background/80 backdrop-blur-md">
+    <link rel="stylesheet" href="styles.css">
+    <div class="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
+      <a class="flex items-center gap-2" href="#">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-6 w-6"
+        >
+          <path d="M18.37 2.63 14 7l-1.59-1.59a2 2 0 0 0-2.82 0L8 7l9 9 1.59-1.59a2 2 0 0 0 0-2.82L17 10l4.37-4.37a2.12 2.12 0 1 0-3-3Z"></path>
+          <path d="M9 8c-2 3-4 3.5-7 4l8 10c2-1 6-5 6-7"></path>
+          <path d="M14.5 17.5 4.5 15"></path>
+        </svg>
+        <span class="text-lg font-semibold">Bloom Beauty</span>
+      </a>
+      <nav class="hidden space-x-4 md:flex">
+        <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
+          Products
+        </a>
+        <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
+          About
+        </a>
+        <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
+          Contact
+        </a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 w-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="h-5 w-5"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.3-4.3"></path>
+          </svg>
+          <span class="sr-only">Search</span>
+        </button>
+        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 w-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="h-5 w-5"
+          >
+            <circle cx="8" cy="21" r="1"></circle>
+            <circle cx="19" cy="21" r="1"></circle>
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
+          </svg>
+          <span class="sr-only">Cart</span>
+        </button>
+        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 w-10">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="h-5 w-5"
+          >
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+          <span class="sr-only">Account</span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="container mx-auto py-12 md:py-24">
+      <div class="grid gap-6 md:grid-cols-2 md:gap-12">
+        <div class="flex flex-col items-start justify-center space-y-4">
+          <h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Discover the Beauty Within</h1>
+          <p class="max-w-md text-muted-foreground md:text-xl">
+            Elevate your natural radiance with our curated collection of high-quality makeup products.
+          </p>
+          <a
+            class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+            href="#"
+          >
+            Shop Now
+          </a>
+        </div>
+        <img
+          src="hero.jpg"
+          width="800"
+          height="600"
+          alt="Hero Image"
+          class="mx-auto rounded-lg object-cover"
+          style="aspect-ratio: 800 / 600; object-fit: cover;"
+        />
+      </div>
+    </section>
+    <section class="container mx-auto py-12 md:py-24">
+      <div class="flex flex-col items-center justify-center space-y-4 text-center">
+        <div class="space-y-2">
+          <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl">Featured Products</h2>
+          <p class="max-w-md text-muted-foreground md:text-xl">
+            Discover our top-selling makeup essentials that will elevate your beauty routine.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div class="relative overflow-hidden rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
+            <a class="absolute inset-0 z-10" href="#">
+              <span class="sr-only">View Product</span>
+            </a>
+            <img
+              src="product1.jpg"
+              alt="Product 1"
+              width="300"
+              height="300"
+              class="object-cover w-full h-64"
+              style="aspect-ratio: 300 / 300; object-fit: cover;"
+            />
+            <div class="p-4 bg-background">
+              <h3 class="text-xl font-bold">Luminous Glow Highlighter</h3>
+              <p class="text-sm text-muted-foreground">Radiant and buildable highlighter</p>
+              <h4 class="text-lg font-semibold md:text-xl">$29.99</h4>
+            </div>
+          </div>
+          <div class="relative overflow-hidden rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
+            <a class="absolute inset-0 z-10" href="#">
+              <span class="sr-only">View Product</span>
+            </a>
+            <img
+              src="product2.jpg"
+              alt="Product 2"
+              width="300"
+              height="300"
+              class="object-cover w-full h-64"
+              style="aspect-ratio: 300 / 300; object-fit: cover;"
+            />
+            <div class="p-4 bg-background">
+              <h3 class="text-xl font-bold">Velvet Matte Lipstick</h3>
+              <p class="text-sm text-muted-foreground">Long-lasting and comfortable lipstick</p>
+              <h4 class="text-lg font-semibold md:text-xl">$19.99</h4>
+            </div>
+          </div>
+          <div class="relative overflow-hidden rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
+            <a class="absolute inset-0 z-10" href="#">
+              <span class="sr-only">View Product</span>
+            </a>
+            <img
+              src="product3.avif"
+              alt="Product 3"
+              width="300"
+              height="300"
+              class="object-cover w-full h-64"
+              style="aspect-ratio: 300 / 300; object-fit: cover;"
+            />
+            <div class="p-4 bg-background">
+              <h3 class="text-xl font-bold">Flawless Finish Foundation</h3>
+              <p class="text-sm text-muted-foreground">Buildable and long-wearing foundation</p>
+              <h4 class="text-lg font-semibold md:text-xl">$39.99</h4>
+            </div>
+          </div>
+          <div class="relative overflow-hidden rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
+            <a class="absolute inset-0 z-10" href="#">
+              <span class="sr-only">View Product</span>
+            </a>
+            <img
+              src="product4.jpg"
+              alt="Product 4"
+              width="300"
+              height="300"
+              class="object-cover w-full h-64"
+              style="aspect-ratio: 300 / 300; object-fit: cover;"
+            />
+            <div class="p-4 bg-background">
+              <h3 class="text-xl font-bold">Lush Lash Mascara</h3>
+              <p class="text-sm text-muted-foreground">Volumizing and lengthening mascara</p>
+              <h4 class="text-lg font-semibold md:text-xl">$24.99</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto py-12 md:py-24">
+      <div class="flex flex-col items-center justify-center space-y-4 text-center">
+        <div class="space-y-2">
+          <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl">Trending Products</h2>
+          <p class="max-w-md text-muted-foreground md:text-xl">
+            Check out the latest makeup trends and must-have products.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div class="relative overflow-hidden rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
+            <a class="absolute inset-0 z-10" href="#">
+              <span class="sr-only">View Product</span>
+            </a>
+            <img
+              src="product 5.jpg"
+              alt="Product 5"
+              width="300"
+              height="300"
+              class="object-cover w-full h-64"
+              style="aspect-ratio: 300 / 300; object-fit: cover;"
+            />
+            <div class="p-4 bg-background">
+              <h3 class="text-xl font-bold">Dewy Skin Tint</h3>
+              <p class="text-sm text-muted-foreground">Lightweight and hydrating skin tint</p>
+              <h4 class="text-lg font-semibold md:text-xl">$34.99</h4>
+            </div>
+          </div>
+          <div class="relative overflow-hidden rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
+            <a class="absolute inset-0 z-10" href="#">
+              <span class="sr-only">View Product</span>
+            </a>
+            <img
+              src="p6.jpg"
+              alt="Product 6"
+              width="300"
+              height="300"
+              class="object-cover w-full h-64"
+              style="aspect-ratio: 300 / 300; object-fit: cover;"
+            />
+            <div class="p-4 bg-background">
+              <h3 class="text-xl font-bold">Blushing Cheeks Palette</h3>
+              <p class="text-sm text-muted-foreground">Versatile blush and highlighter palette</p>
+              <h4 class="text-lg font-semibold md:text-xl">$49.99</h4>
+            </div>
+          </div>
+          <div class="relative overflow-hidden rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
+            <a class="absolute inset-0 z-10" href="#">
+              <span class="sr-only">View Product</span>
+            </a>
+            <img
+              src="p7.jpg"
+              alt="Product 7"
+              width="300"
+              height="300"
+              class="object-cover w-full h-64"
+              style="aspect-ratio: 300 / 300; object-fit: cover;"
+            />
+            <div class="p-4 bg-background">
+              <h3 class="text-xl font-bold">Mineral Eyeshadow Palette</h3>
+              <p class="text-sm text-muted-foreground">Highly pigmented and long-lasting eyeshadows</p>
+              <h4 class="text-lg font-semibold md:text-xl">$59.99</h4>
+            </div>
+          </div>
+          <div class="relative overflow-hidden rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
+            <a class="absolute inset-0 z-10" href="#">
+              <span class="sr-only">View Product</span>
+            </a>
+            <img
+              src="p8.webp"
+              alt="Product 8"
+              width="300"
+              height="300"
+              class="object-cover w-full h-64"
+              style="aspect-ratio: 300 / 300; object-fit: cover;"
+            />
+            <div class="p-4 bg-background">
+              <h3 class="text-xl font-bold">Nourishing Lip Balm</h3>
+              <p class="text-sm text-muted-foreground">Hydrating and soothing lip care</p>
+              <h4 class="text-lg font-semibold md:text-xl">$14.99</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto py-12 md:py-24">
+      <div class="grid gap-6 md:grid-cols-2 md:gap-12">
+        <img
+          src="brandimg.webp"
+          width="800"
+          height="600"
+          alt="Brand Image"
+          class="mx-auto rounded-lg object-cover"
+          style="aspect-ratio: 800 / 600; object-fit: cover;"
+        />
+        <div class="flex flex-col items-start justify-center space-y-4">
+          <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Bloom Beauty</h2>
+          <p class="max-w-md text-muted-foreground md:text-xl">
+            Bloom Beauty is a natural and sustainable makeup brand dedicated to empowering women to embrace their
+            inner radiance. Our products are formulated with high-quality, plant-based ingredients to nourish and
+            enhance your natural beauty.
+          </p>
+          <a
+            class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+            href="#"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-muted p-6 md:py-12 w-full">
+    <div class="container max-w-7xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-sm">
+      <div class="grid gap-1">
+        <h3 class="font-semibold">Company</h3>
+        <a href="#">About Us</a>
+        <a href="#">Our Team</a>
+        <a href="#">Careers</a>
+        <a href="#">News</a>
+      </div>
+      <div class="grid gap-1">
+        <h3 class="font-semibold">Products</h3>
+        <a href="#">Makeup</a>
+        <a href="#">Skincare</a>
+        <a href="#">Haircare</a>
+        <a href="#">Accessories</a>
+      </div>
+      <div class="grid gap-1">
+        <h3 class="font-semibold">Resources</h3>
+        <a href="#">Blog</a>
+        <a href="#">Community</a>
+        <a href="#">Support</a>
+        <a href="#">FAQs</a>
+      </div>
+      <div class="grid gap-1">
+        <h3 class="font-semibold">Legal</h3>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+      <div class="grid gap-1"></div>
+    </div>
+    <footer>FOUNDER @MIHIR</footer>
+  </footer>
+</div>
